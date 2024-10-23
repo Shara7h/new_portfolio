@@ -110,7 +110,7 @@ export const experiences = [
   {
     company: 'Simpleilearn',
     role: 'Business Analytics  with Excel',
-    duration: 'September 21,2024',
+    duration: '29th aug,2024',
     logo: 'https://shara7h.github.io/1/sil.jpg',
     points: [
       <img src="20.png" alt="description of image" />,
