@@ -9,7 +9,40 @@ export const services = [
 export const name = 'Sharath';
 
 export const experiences = [
-  {
+   {
+    company: 'Simpleilearn',
+    role: 'Business Analytics  with Excel',
+    duration: '29th aug,2024',
+    logo: 'https://shara7h.github.io/1/sil.jpg',
+    points: [
+      <img src="21.png" alt="description of image" />,
+      <div style={{ marginTop: '10px', textAlign: 'center' }}>
+        <button
+          onClick={() => window.location.href = 'https://simpli.app.link?%24identity_id=1361196736017778663&channel=android&feature=sharing&type=0&duration=0&source=android&data=eyIkb2dfdGl0bGUiOiJTaGFyYXRoICBoYXMgc3VjY2Vzc2Z1bGx5IGNvbXBsZXRlZCB0aGUgR0lUIG9ubGluZSBjb3Vyc2UuIiwiJGNhbm9uaWNhbF9pZGVudGlmaWVyIjoiNzQ4NTM1MSIsIiRvZ19kZXNjcmlwdGlvbiI6IkxlYXJuIHRvZGF5J3MgbW9zdCBpbi1kZW1hbmQgc2tpbGxzIGZvciBmcmVlIGF0IFNraWxsVXAgYnkgU2ltcGxpbGVhcm4uIiwiJG9nX2ltYWdlX3VybCI6Imh0dHBzOlwvXC9jZXJ0aWZpY2F0ZXMuc2ltcGxpY2RuLm5ldFwvc2hhcmVcL3RodW1iXzc0ODUzNTFfMTcyOTY5MTQ5OS5wbmciLCIkcHVibGljbHlfaW5kZXhhYmxlIjoidHJ1ZSIsIiRkZXNrdG9wX3VybCI6Imh0dHBzOlwvXC93d3cuc2ltcGxpbGVhcm4uY29tXC9za2lsbHVwLWNlcnRpZmljYXRlLWxhbmRpbmc%2FdG9rZW49ZXlKamIzVnljMlZmYVdRaU9pSTNOVGdpTENKalpYSjBhV1pwWTJGMFpWOTFjbXdpT2lKb2RIUndjenBjTDF3dlkyVnlkR2xtYVdOaGRHVnpMbk5wYlhCc2FXTmtiaTV1WlhSY0wzTm9ZWEpsWEM5MGFIVnRZbDgzTkRnMU16VXhYekUzTWprMk9URTBPVGt1Y0c1bklpd2lkWE5sY201aGJXVWlPaUpUYUdGeVlYUm9JQ0o5JnV0bV9zb3VyY2U9c2hhcmVkLWNlcnRpZmljYXRlJnV0bV9tZWRpdW09YXBwX2xtcyZ1dG1fY2FtcGFpZ249c2hhcmVkLWNlcnRpZmljYXRlLXByb21vdGlvbiZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRmNlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0JTJGc2hhcmUlMkZ0aHVtYl83NDg1MzUxXzE3Mjk2OTE0OTkucG5nIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6XC9cL3d3dy5zaW1wbGlsZWFybi5jb21cL3NraWxsdXAtY2VydGlmaWNhdGUtbGFuZGluZz90b2tlbj1leUpqYjNWeWMyVmZhV1FpT2lJM05UZ2lMQ0pqWlhKMGFXWnBZMkYwWlY5MWNtd2lPaUpvZEhSd2N6cGNMMXd2WTJWeWRHbG1hV05oZEdWekxuTnBiWEJzYVdOa2JpNXVaWFJjTDNOb1lYSmxYQzkwYUhWdFlsODNORGcxTXpVeFh6RTNNamsyT1RFME9Ua3VjRzVuSWl3aWRYTmxjbTVoYldVaU9pSlRhR0Z5WVhSb0lDSjkmdXRtX3NvdXJjZT1zaGFyZWQtY2VydGlmaWNhdGUmdXRtX21lZGl1bT1hcHBfbG1zJnV0bV9jYW1wYWlnbj1zaGFyZWQtY2VydGlmaWNhdGUtcHJvbW90aW9uJnJlZmVycmVyPWh0dHBzJTNBJTJGJTJGY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXQlMkZzaGFyZSUyRnRodW1iXzc0ODUzNTFfMTcyOTY5MTQ5OS5wbmciLCJzb3VyY2UiOiJhbmRyb2lkIn0%3D'}
+          style={{
+            backgroundColor: '#1d1836',
+            color: 'white',
+            border: 'none',
+            padding: '10px 20px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            borderRadius: '5px',
+            boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+            transition: '0.3s',
+            textTransform: 'uppercase',
+            letterSpacing: '1px',
+            margin: '0 auto'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#333'}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#1d1836'}
+        >
+          Verify
+        </button>
+      </div>
+    ],
+    url: 'https://inncircles.com/#home'
+  },
+{
     company: 'UniAthena',
     role: 'Basic Of Data Science',
     duration: '08 Oct 2024',
