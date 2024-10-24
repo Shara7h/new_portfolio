@@ -12,6 +12,7 @@ const Contact = () => {
         email: "",
         message: "",
     });
+
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
@@ -25,6 +26,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
+
         const username = form.name.trim();
         const user_email = form.email.trim();
         const user_message = form.message.trim();
