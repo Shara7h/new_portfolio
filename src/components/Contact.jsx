@@ -1,4 +1,3 @@
-Contact new draft
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
@@ -13,7 +12,6 @@ const Contact = () => {
         email: "",
         message: "",
     });
-
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
@@ -27,7 +25,6 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
-
         const username = form.name.trim();
         const user_email = form.email.trim();
         const user_message = form.message.trim();
