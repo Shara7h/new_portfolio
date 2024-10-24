@@ -35,7 +35,7 @@ const About = () => {
             <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻Hello! I’m Sharath, a passionate and dedicated BCA 3rd-year student at Sacred Heart College in Madantyar, Karnataka. With a strong foundation in computer applications, I am constantly exploring new technologies and honing my skills in programming, 
             web development, and data analysis 🚀.
               <br />
-              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@goudnithin77" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
+              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@sharath7h" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
               On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
 
             <ButtonLink
