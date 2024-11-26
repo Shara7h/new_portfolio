@@ -39,6 +39,7 @@
 		-webkit-transform: scale3d(0.3, 0.3, 0.3);
 		transform: scale3d(0.3, 0.3, 0.3);
 	}
+	
 	50% {
 		opacity: 1;
 	}
