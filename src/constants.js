@@ -11,7 +11,7 @@ export const name = 'Sharath';
 export const experiences = [
    {
     company: 'Simpleilearn',
-    role: 'Business Analytics  with Excel',
+    role: 'GIT Training',
     duration: '29th aug,2024',
     duration: '23rd Oct,2024',
     logo: 'https://shara7h.github.io/1/sil.jpg',
